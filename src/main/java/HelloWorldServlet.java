@@ -14,6 +14,12 @@ public class HelloWorldServlet extends HttpServlet {
     protected  void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
         res.setContentType("text/html");
         PrintWriter writer = res.getWriter();
-        writer.println("<h1>Hello World</h1");
+//        writer.println("<h1>Hello World</h1");
+        String name = req.getParameter("name");
 
+        if (name != null) {
+            writer.println("<h1> Hello " + name + "</h1>");
+        } else {
+            writer.println("<h1>Hello, World!</h1>");
+        }
     }}
