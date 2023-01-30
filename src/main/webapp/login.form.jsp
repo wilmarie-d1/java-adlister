@@ -7,10 +7,16 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <label for="username">Username: </label>
+    <input type="text" name="username" id="username">
+    <label for="password">Password:</label>
+    <input type="text" name="password" id="password">
+</form>
+
+</body>
 </html>
