@@ -1,8 +1,11 @@
-<form action="login.jsp" method="post">
-    <label for="username">Username:</label>
-    <input type="text" name="username" id="username">
-    <label for="password">Password:</label>
-    <input type="password" name="password" id="password">
-    <button type="submit">Submit</button>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-</form>
+<html>
+<head>
+    <title>Profile Viewing</title>
+</head>
+<body>
+</body>
+</html>
+
