@@ -40,5 +40,6 @@ public class JDBCLec {
         } catch (SQLException e) {
             throw new RuntimeException("Error connecting to database.", e);
         }
-    }
+        return null;
+    }}
 
